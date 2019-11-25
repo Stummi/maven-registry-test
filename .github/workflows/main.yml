@@ -1,8 +1,8 @@
 name: Mvn deploy
 
-on: [create]
+on:
+  create
   
-
 jobs:
   build:
     runs-on: ubuntu-latest
